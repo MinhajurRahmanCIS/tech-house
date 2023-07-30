@@ -19,6 +19,9 @@ const Cart = ({cart}) => {
             <p><b>Shipping Cost:</b> ${shipping}</p>
             <p><b>Tax:</b> ${tax.toFixed(2)}</p>
             <h4><b>Grand Total:</b> ${GrandTotal}</h4>
+            <div className='btn-payment-container'>
+            <button className='btn-payment'>Process Payment</button>
+            </div>
         </div>
     );
 };
