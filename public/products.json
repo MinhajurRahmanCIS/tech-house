@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "Apple MacBook Pro 13-inch (M1, 2020)",
         "brand": "Apple",
         "category": "Laptop",
@@ -16,9 +17,13 @@
             "storage": "256GB SSD",
             "graphics": "Apple M1 GPU",
             "battery": "Built-in rechargeable lithium-polymer"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 2,
         "name": "Asus ROG Zephyrus G14 (2020)",
         "brand": "Asus",
         "category": "Gaming Laptop",
@@ -35,9 +40,13 @@
             "storage": "1TB SSD",
             "graphics": "NVIDIA GeForce RTX 2060 Max-Q",
             "battery": "4-cell 76Wh"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 3,
         "name": "Dell XPS 13 (Late 2020)",
         "brand": "Dell",
         "category": "Laptop",
@@ -54,9 +63,13 @@
             "storage": "256GB SSD",
             "graphics": "Intel Iris Xe Graphics",
             "battery": "4-cell 52Wh"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 4,
         "name": "HP Spectre x360 (Late 2020)",
         "brand": "HP",
         "category": "Convertible Laptop",
@@ -73,9 +86,13 @@
             "storage": "512GB SSD",
             "graphics": "Intel Iris Xe Graphics",
             "battery": "4-cell 60Wh"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 5,
         "name": "Lenovo ThinkPad X1 Carbon (8th Gen, 2020)",
         "brand": "Lenovo",
         "category": "Business Laptop",
@@ -91,9 +108,13 @@
             "storage": "512GB SSD",
             "graphics": "Intel UHD Graphics",
             "battery": "4-cell 51Wh"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 6,
         "name": "Microsoft Surface Laptop 4 (2021)",
         "brand": "Microsoft",
         "category": "Laptop",
@@ -112,9 +133,13 @@
             "storage": "256GB SSD",
             "graphics": "Intel Iris Xe Graphics / AMD Radeon Graphics",
             "battery": "4-cell 47.4Wh"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 7,
         "name": "iPhone 13 Pro",
         "brand": "Apple",
         "category": "Smartphone",
@@ -133,9 +158,13 @@
             "storage": "128GB / 256GB / 512GB / 1TB",
             "camera": "Triple 12MP",
             "battery": "Built-in rechargeable lithium-ion"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 8,
         "name": "Samsung Galaxy S21 Ultra",
         "brand": "Samsung",
         "img": "https://www.gizmochina.com/wp-content/uploads/2020/11/Samsung-Galaxy-S21-Ultra-5G-500x500.jpg",
@@ -152,9 +181,13 @@
             "storage": "128GB / 256GB / 512GB",
             "camera": "Quad 108MP",
             "battery": "5000mAh"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 9,
         "name": "Google Pixel 6 Pro",
         "brand": "Google",
         "category": "Smartphone",
@@ -171,9 +204,13 @@
             "storage": "128GB / 256GB",
             "camera": "Dual 50MP",
             "battery": "5000mAh"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 10,
         "name": "OnePlus 9",
         "brand": "OnePlus",
         "category": "Smartphone",
@@ -190,9 +227,13 @@
             "storage": "128GB / 256GB",
             "camera": "Triple 48MP",
             "battery": "4500mAh"
-        }
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 11,
         "name": "Xiaomi Mi 11",
         "brand": "Xiaomi",
         "category": "Smartphone",
@@ -209,69 +250,102 @@
             "storage": "128GB / 256GB",
             "camera": "Triple 108MP",
             "battery": "4600mAh"
-        }
-    }
-     {
+        },
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
+    },
+    {
+        "id": 12,
         "name": "NVIDIA GeForce RTX 3080",
         "brand": "NVIDIA",
+        "category": "pc components",
         "architecture": "Ampere",
         "memory": "10GB GDDR6X",
         "core_clock": "1440 MHz",
         "boost_clock": "1710 MHz",
         "price": 699.00,
-        "img": "https://cdn.mos.cms.futurecdn.net/aRVsw7HmYPumgn8mUxB88U.jpg"
+        "img": "https://cdn.mos.cms.futurecdn.net/aRVsw7HmYPumgn8mUxB88U.jpg",
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 13,
         "name": "AMD Radeon RX 6900 XT",
         "brand": "AMD",
+        "category": "pc components",
         "architecture": "RDNA 2",
         "memory": "16GB GDDR6",
         "core_clock": "1825 MHz",
         "boost_clock": "2250 MHz",
         "price": 999.00,
-        "img": "https://cdn.mos.cms.futurecdn.net/2kvNM4Dc5zuR74h9BXrPt8.jpg"
+        "img": "https://cdn.mos.cms.futurecdn.net/2kvNM4Dc5zuR74h9BXrPt8.jpg",
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 14,
         "name": "NVIDIA GeForce GTX 1660 Ti",
         "brand": "NVIDIA",
+        "category": "pc components",
         "architecture": "Turing",
         "memory": "6GB GDDR6",
         "core_clock": "1500 MHz",
         "boost_clock": "1770 MHz",
         "price": 299.00,
-        "img": "https://cdn.mos.cms.futurecdn.net/j94UPj77jcdTvgP8juhhDE.jpg"
+        "img": "https://cdn.mos.cms.futurecdn.net/j94UPj77jcdTvgP8juhhDE.jpg",
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 15,
         "name": "Intel Core i9-11900K",
         "brand": "Intel",
+        "category": "pc components",
         "socket": "LGA 1200",
         "cores": 8,
         "threads": 16,
         "base_clock": "3.5 GHz",
         "max_clock": "5.3 GHz",
         "price": 549.00,
-        "img": "https://thinkcomputers.org/wp-content/uploads/2021/04/intel-core-i9-11900k-14.jpg"
+        "img": "https://thinkcomputers.org/wp-content/uploads/2021/04/intel-core-i9-11900k-14.jpg",
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 16,
         "name": "AMD Ryzen 9 5900X",
         "brand": "AMD",
+        "category": "pc components",
         "socket": "AM4",
         "cores": 12,
         "threads": 24,
         "base_clock": "3.7 GHz",
         "max_clock": "4.8 GHz",
         "price": 549.00,
-        "img": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5900x/ryzen-9-5900x-001-500x500.jpg"
+        "img": "https://www.startech.com.bd/image/cache/catalog/processor/amd/ryzen-9-5900x/ryzen-9-5900x-001-500x500.jpg",
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     },
     {
+        "id": 17,
         "name": "Intel Core i5-11600K",
         "brand": "Intel",
+        "category": "pc components",
         "socket": "LGA 1200",
         "cores": 6,
         "threads": 12,
         "base_clock": "3.9 GHz",
         "max_clock": "4.9 GHz",
         "price": 269.00,
-        "img": "https://www.techspot.com/articles-info/2220/images/2021-03-30-image-5.jpg"
+        "img": "https://www.techspot.com/articles-info/2220/images/2021-03-30-image-5.jpg",
+        "quantity": 100,
+        "stock": true,
+        "shipping": 10
     }
 ]
