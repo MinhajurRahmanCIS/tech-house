@@ -12,7 +12,8 @@ const Cart = ({ cart }) => {
     }
     const tax = totalPrice*(10 / 100);
     const grandTotal = totalPrice + totalShipping + tax;
-    const clearFromCart = () => deleteShoppingCart();
+    const clearFromCart = () => {deleteShoppingCart();
+    window.location.reload();}
 
     return (
         <div className='cart'>
