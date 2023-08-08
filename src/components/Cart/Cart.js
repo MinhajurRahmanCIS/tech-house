@@ -1,28 +1,31 @@
 import React from 'react';
 import './Cart.css'
-const Cart = ({cart}) => {
-    
-    let total = 0;
-    let shipping = 0;
-    for(const price of cart){
-        total = total + price.price;
-        shipping = shipping + price.shipping;
+import { deleteShoppingCart } from '../../utility/LocalStorage';
+const Cart = ({ cart }) => {
+    let totalPrice = 0;
+    let totalShipping = 0;
+    let quantity = 0;
+    for(const product of cart){
+        totalPrice = totalPrice + product.price* product.quantity ;
+        quantity = quantity + product.quantity;
+        totalShipping = totalShipping + product.shipping;
     }
-    const tax = total*(2/100);
-    const GrandTotal = total + shipping + tax;
+    const tax = totalPrice*(10 / 100);
+    const grandTotal = totalPrice + totalShipping + tax;
+    const clearFromCart = () => deleteShoppingCart();
 
     return (
         <div className='cart'>
-            <h2>Product Summery</h2>
-            <p> <b>Total Product: </b>{cart.length}</p>
-            <p><b>Total Price:</b> ${total}</p>
-            <p><b>Shipping Cost:</b> ${shipping}</p>
-            <p><b>Tax:</b> ${tax.toFixed(2)}</p>
-            <h4><b>Grand Total:</b> ${GrandTotal}</h4>
-            <div className='btn-payment-container'>
-            <button className='btn-payment'>Process Payment</button>
-            </div>
+        <h2>Order Summery</h2>
+        <p>Select Item: {quantity}</p>
+        <p>Total Price: ${totalPrice}</p>
+        <p>Total Shipping Charge: ${totalShipping}</p>
+        <p>Tax: ${tax.toFixed(2)}</p>
+        <h4>Grand Total: ${parseInt(grandTotal)}</h4>
+        <div className='btn-payment-container'>
+        <button onClick={clearFromCart} className='btn-clear'>Clear Cart</button>
         </div>
+    </div>
     );
 };
 
