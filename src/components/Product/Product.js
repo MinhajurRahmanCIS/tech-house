@@ -3,6 +3,7 @@ import './Product.css'
 const Product = (props) => {
     const { name, ratings, category, price, img} = props.product;
     const handelAddToCart = props.handelAddToCart;
+    const handelRemoveToCart = props;
 
     return (
         <div className='product'>
